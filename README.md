@@ -24,9 +24,9 @@ An interactive piano learning application developed with Java Swing. Learn to pl
 ## 🎮 How to Play
 
 ### Keyboard Keys
-<img width="102" height="987" alt="Ekran görüntüsü 2026-01-06 132438" src="https://github.com/user-attachments/assets/f0e18149-55a1-4898-8a84-9a11bf0e0239" />
-<img width="199" height="989" alt="Ekran görüntüsü 2026-01-06 132503" src="https://github.com/user-attachments/assets/59db8ffe-04d6-49b4-aec4-ff6d49d25257" />
-<img width="193" height="987" alt="Ekran görüntüsü 2026-01-06 132524" src="https://github.com/user-attachments/assets/b8bce79b-edfa-4e65-bd8f-89afc5ff177e" />
+<img width="250" height="987" alt="Ekran görüntüsü 2026-01-06 132438" src="https://github.com/user-attachments/assets/f0e18149-55a1-4898-8a84-9a11bf0e0239" />
+<img width="250" height="989" alt="Ekran görüntüsü 2026-01-06 132503" src="https://github.com/user-attachments/assets/59db8ffe-04d6-49b4-aec4-ff6d49d25257" />
+<img width="250" height="987" alt="Ekran görüntüsü 2026-01-06 132524" src="https://github.com/user-attachments/assets/b8bce79b-edfa-4e65-bd8f-89afc5ff177e" />
 
 **White Keys (Main Notes):**
 | Key | Note |
