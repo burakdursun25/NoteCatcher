@@ -1,133 +1,133 @@
-# 🎹 Piano Öğrenme Oyunu
+# 🎹 Piano Learning Game
 
-Java Swing ile geliştirilmiş interaktif bir piano öğrenme uygulaması. Düşen notalara basarak şarkı çalmayı öğrenin!
+An interactive piano learning application developed with Java Swing. Learn to play songs by pressing the falling notes!
 
-## 📋 Özellikler
+## 📋 Features
 
-- **5 Farklı Şarkı** - Kolaydan zora farklı zorluk seviyelerinde şarkılar
-- **Serbest Çalma Modu** - İstediğiniz notaları özgürce çalın
-- **Puan Sistemi** - Doğru notalara basarak puan kazanın
-- **Rekor Takibi** - Her şarkı için en yüksek puanınız kaydedilir
-- **Uzun Nota Desteği** - Bazı notaları basılı tutmanız gerekir
-- **MIDI Ses Sistemi** - Gerçek zamanlı piano sesleri
+- **5 Different Songs** - Songs with varying difficulty levels from easy to hard
+- **Free Play Mode** - Play any notes you want freely
+- **Scoring System** - Earn points by pressing the correct notes
+- **High Score Tracking** - Your highest score is saved for each song
+- **Long Note Support** - Some notes require you to hold the key
+- **MIDI Sound System** - Real-time piano sounds
 
-## 🎵 Şarkılar
+## 🎵 Songs
 
-| Şarkı | Zorluk | Nota Sayısı | Hız |
-|-------|--------|-------------|-----|
-| Twinkle Twinkle Little Star | ⭐ Kolay | 42 | Yavaş |
-| Mary Had a Little Lamb | ⭐ Kolay | 26 | Orta |
-| Ode to Joy - Beethoven | ⭐⭐ Orta | 63 | Hızlı |
-| Für Elise - Beethoven | ⭐⭐⭐ Zor | 68 | Çok Hızlı |
-| Canon in D - Pachelbel | ⭐⭐⭐ Zor | 96 | En Hızlı |
+| Song | Difficulty | Note Count | Speed |
+|------|------------|------------|-------|
+| Twinkle Twinkle Little Star | ⭐ Easy | 42 | Slow |
+| Mary Had a Little Lamb | ⭐ Easy | 26 | Medium |
+| Ode to Joy - Beethoven | ⭐⭐ Medium | 63 | Fast |
+| Für Elise - Beethoven | ⭐⭐⭐ Hard | 68 | Very Fast |
+| Canon in D - Pachelbel | ⭐⭐⭐ Hard | 96 | Fastest |
 
-## 🎮 Nasıl Oynanır
+## 🎮 How to Play
 
-### Klavye Tuşları
+### Keyboard Keys
 
-**Beyaz Tuşlar (Ana Notalar):**
-| Tuş | Nota |
+**White Keys (Main Notes):**
+| Key | Note |
 |-----|------|
-| A | Do |
-| S | Re |
-| D | Mi |
-| F | Fa |
-| J | Sol |
-| K | La |
-| L | Si |
+| A | Do (C) |
+| S | Re (D) |
+| D | Mi (E) |
+| F | Fa (F) |
+| J | Sol (G) |
+| K | La (A) |
+| L | Si (B) |
 
-**Siyah Tuşlar (Diyez Notalar - Serbest Çalma Modunda):**
-| Tuş | Nota |
+**Black Keys (Sharp Notes - In Free Play Mode):**
+| Key | Note |
 |-----|------|
-| W | Do# |
-| E | Re# |
-| T | Fa# |
-| Y | Sol# |
-| U | La# |
+| W | Do# (C#) |
+| E | Re# (D#) |
+| T | Fa# (F#) |
+| Y | Sol# (G#) |
+| U | La# (A#) |
 
-### Oyun Kuralları
+### Game Rules
 
-1. **Düşen Notaları Takip Edin** - Ekranın üstünden notalar düşer
-2. **Doğru Tuşa Basın** - Nota altın çizgiye ulaştığında doğru tuşa basın
-3. **Uzun Notalar** - Turuncu renkli "UZUN" yazan notalarda tuşu basılı tutun
-4. **Puan Kazanın** - Doğru nota = +100 puan, Uzun nota = +200 puan
-5. **Hata Yapmayın** - Yanlış veya kaçırılan nota = -50 puan
+1. **Follow the Falling Notes** - Notes fall from the top of the screen
+2. **Press the Correct Key** - Press the right key when the note reaches the golden line
+3. **Long Notes** - Hold the key for orange-colored notes marked "LONG"
+4. **Earn Points** - Correct note = +100 points, Long note = +200 points
+5. **Avoid Mistakes** - Wrong or missed note = -50 points
 
-### Özel Tuşlar
+### Special Keys
 
-- **ESC** - Ana menüye dön
+- **ESC** - Return to main menu
 
-## 🛠️ Kurulum
+## 🛠️ Installation
 
-### Gereksinimler
-- Java JDK 8 veya üzeri
-- NetBeans IDE (önerilen) veya herhangi bir Java IDE
+### Requirements
+- Java JDK 8 or higher
+- NetBeans IDE (recommended) or any Java IDE
 
-### Çalıştırma
+### Running
 
-1. Projeyi IDE'nizde açın
-2. `pianooyun.java` dosyasını çalıştırın
-3. Ana menüden bir şarkı seçin ve oynamaya başlayın!
+1. Open the project in your IDE
+2. Run the `NoteCatcher.java` file
+3. Select a song from the main menu and start playing!
 
-### Manuel Derleme
+### Manual Compilation
 
 ```bash
 cd src
-javac pianooyun/*.java
-java pianooyun.pianooyun
+javac NoteCatcher/*.java
+java NoteCatcher.NoteCatcher
 ```
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
-PianoOyun/
+NoteCatcher/
 ├── src/
-│   └── pianooyun/
-│       ├── pianooyun.java      # Ana uygulama giriş noktası
-│       ├── AnaMenu.java        # Ana menü ekranı
-│       ├── OyunPaneli.java     # Oyun mantığı ve çizim
-│       ├── Not.java            # Nota sınıfı
-│       ├── SesCal.java         # MIDI ses sistemi
-│       ├── SerbestCalma.java   # Serbest çalma modu
-│       ├── SarkiTwinkle.java   # Twinkle Twinkle şarkısı
+│   └── NoteCatcher/
+│       ├── NoteCatcher.java    # Main application entry point
+│       ├── AnaMenu.java        # Main menu screen
+│       ├── OyunPaneli.java     # Game logic and rendering
+│       ├── Not.java            # Note class
+│       ├── SesCal.java         # MIDI sound system
+│       ├── SerbestCalma.java   # Free play mode
+│       ├── SarkiTwinkle.java   # Twinkle Twinkle song
 │       ├── SarkiMary.java      # Mary Had a Little Lamb
 │       ├── SarkiOde.java       # Ode to Joy
 │       ├── SarkiFurElise.java  # Für Elise
 │       └── SarkiCanon.java     # Canon in D
-├── build.xml                   # Ant build dosyası
-└── README.md                   # Bu dosya
+├── build.xml                   # Ant build file
+└── README.md                   # This file
 ```
 
-## 🎨 Ekran Görüntüleri
+## 🎨 Screenshots
 
-### Ana Menü
-- Şarkı seçimi
-- Zorluk seviyeleri gösterimi
-- Serbest çalma modu erişimi
+### Main Menu
+- Song selection
+- Difficulty level display
+- Free play mode access
 
-### Oyun Ekranı
-- 7 beyaz piano tuşu
-- Düşen renkli notalar
-- Puan ve rekor göstergesi
-- Altın hedef çizgisi
+### Game Screen
+- 7 white piano keys
+- Falling colored notes
+- Score and high score display
+- Golden target line
 
-## 🔧 Teknik Detaylar
+## 🔧 Technical Details
 
-- **Dil:** Java
+- **Language:** Java
 - **GUI:** Swing
-- **Ses:** Java MIDI Synthesizer
-- **FPS:** 50 (20ms güncelleme)
-- **Minimum Çözünürlük:** 900x800
+- **Sound:** Java MIDI Synthesizer
+- **FPS:** 50 (20ms update)
+- **Minimum Resolution:** 900x800
 
-## 👥 Geliştiriciler
+## 👥 Developers
 
 - Hüseyin
 - Burak
 
-## 📄 Lisans
+## 📄 License
 
-Bu proje eğitim amaçlı geliştirilmiştir.
+This project was developed for educational purposes.
 
 ---
 
-🎹 *İyi eğlenceler ve bol şans!*
+🎹 *Have fun and good luck!*
