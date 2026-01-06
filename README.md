@@ -22,9 +22,6 @@ An interactive piano learning application developed with Java Swing. Learn to pl
 | Canon in D - Pachelbel | ⭐⭐⭐ Hard | 96 | Fastest |
 
 ## 🎮 How to Play
-<img width="300" height="984" alt="Ekran görüntüsü 2026-01-06 133340" src="https://github.com/user-attachments/assets/62f2e59a-6f05-4987-bebf-5a1cbc56ae92" />
-<img width="300" height="985" alt="Ekran görüntüsü 2026-01-06 134313" src="https://github.com/user-attachments/assets/c00c1940-5809-42d9-9bbb-973bc648fd5c" />
-<img width="300" height="984" alt="Ekran görüntüsü 2026-01-06 134328" src="https://github.com/user-attachments/assets/73f28103-8f37-46d0-869d-773fe6cf0d27" />
 
 ### Keyboard Keys
 **White Keys (Main Notes):**
@@ -107,11 +104,16 @@ NoteCatcher/
 - Difficulty level display
 - Free play mode access
 
+  <img width="300" height="984" alt="Ekran görüntüsü 2026-01-06 133340" src="https://github.com/user-attachments/assets/62f2e59a-6f05-4987-bebf-5a1cbc56ae92" />
+
 ### Game Screen
 - 7 white piano keys
 - Falling colored notes
 - Score and high score display
 - Golden target line
+
+<img width="300" height="985" alt="Ekran görüntüsü 2026-01-06 134313" src="https://github.com/user-attachments/assets/c00c1940-5809-42d9-9bbb-973bc648fd5c" />
+<img width="300" height="984" alt="Ekran görüntüsü 2026-01-06 134328" src="https://github.com/user-attachments/assets/73f28103-8f37-46d0-869d-773fe6cf0d27" />
 
 ## 🔧 Technical Details
 
