@@ -22,12 +22,11 @@ An interactive piano learning application developed with Java Swing. Learn to pl
 | Canon in D - Pachelbel | ⭐⭐⭐ Hard | 96 | Fastest |
 
 ## 🎮 How to Play
+<img width="300" height="984" alt="Ekran görüntüsü 2026-01-06 133340" src="https://github.com/user-attachments/assets/62f2e59a-6f05-4987-bebf-5a1cbc56ae92" />
+<img width="300" height="985" alt="Ekran görüntüsü 2026-01-06 134313" src="https://github.com/user-attachments/assets/c00c1940-5809-42d9-9bbb-973bc648fd5c" />
+<img width="300" height="984" alt="Ekran görüntüsü 2026-01-06 134328" src="https://github.com/user-attachments/assets/73f28103-8f37-46d0-869d-773fe6cf0d27" />
 
 ### Keyboard Keys
-<img width="300" height="987" alt="Ekran görüntüsü 2026-01-06 132438" src="https://github.com/user-attachments/assets/f0e18149-55a1-4898-8a84-9a11bf0e0239" />
-<img width="300" height="989" alt="Ekran görüntüsü 2026-01-06 132503" src="https://github.com/user-attachments/assets/59db8ffe-04d6-49b4-aec4-ff6d49d25257" />
-<img width="300" height="987" alt="Ekran görüntüsü 2026-01-06 132524" src="https://github.com/user-attachments/assets/b8bce79b-edfa-4e65-bd8f-89afc5ff177e" />
-
 **White Keys (Main Notes):**
 | Key | Note |
 |-----|------|
